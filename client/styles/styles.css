@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-color: #EEEBE2;
+}
+
+.navbar {
+  padding-top: 2px;
+  text-align: center;
+  /* background-color: lightblue; */
+}
+
+.navbar h1 {
+  color: #C87E74;
+  font-size: 56px;
+}
+
+.body-container {
+  /* border: 1px solid green; */
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.category-container {
+  /* border: 1px solid red; */
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  margin: 15px auto;
+  display: flex;
+}
+
+.input-field {
+  padding: 5px;
+  width: 250px;
+  margin-right: 8px;
+  border-radius: 6px;
+  border-style: none;
+}
+
+.amount-input {
+  margin: 25px 0;
+  padding: 15px;
+  width: 350px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: larger;
+}
+
+.category-btn {
+  width: 8em;
+  padding: 10px 30px;
+  border-style: none;
+  border-radius: 4px;
+  background-color: rgb(93, 185, 185);
+  color: white;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.category-btn:hover {
+  cursor: pointer;
+  background-color: rgba(4, 121, 121, 0.6);
+}
+
+.addCategory-btn {
+  border-style: none;
+  border-radius: 3px;
+  background-color: white;
+  color: #C87E74;
+  border: 1px solid #C87E74;
+}
+
+.addCategory-btn:hover {
+  cursor: pointer;
+  background-color: #C87E74;
+  color: white;
+}
